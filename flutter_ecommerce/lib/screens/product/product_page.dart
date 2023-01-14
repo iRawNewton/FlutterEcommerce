@@ -15,7 +15,7 @@ class MyProduct extends StatefulWidget {
 class _MyProductState extends State<MyProduct> {
   @override
   Widget build(BuildContext context) {
-    String description =
+    String desc =
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
     return SafeArea(
       bottom: false,
@@ -37,40 +37,7 @@ class _MyProductState extends State<MyProduct> {
                 const SizedBox(height: 5),
                 // description
 
-                Container(
-                  child: Column(
-                    children: [
-                      Row(
-                        children: const [
-                          Text('Description'),
-                        ],
-                      ),
-                      Row(
-                        children: [
-                          Expanded(
-                            child: InkWell(
-                              onTap: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (context) => MyDescription(
-                                            description: description,
-                                          )),
-                                );
-                              },
-                              child: Text(
-                                description,
-                                softWrap: false,
-                                maxLines: 2,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                            ),
-                          ),
-                        ],
-                      )
-                    ],
-                  ),
-                ),
+                description(context, desc),
               ],
             ),
           ),

@@ -34,11 +34,13 @@ class _HomePageState extends State<HomePage> {
           scrollDirection: Axis.vertical,
           child: Column(
             children: [
+              const SizedBox(height: 20),
               // search bar
               searchBox(),
+              const SizedBox(height: 20),
               // categories
               iconCategory(),
-              const SizedBox(height: 10),
+              const SizedBox(height: 30),
               // caraousel
               carouselImages(),
               // something
@@ -46,6 +48,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
+      drawer: const Drawer(),
     );
   }
 }

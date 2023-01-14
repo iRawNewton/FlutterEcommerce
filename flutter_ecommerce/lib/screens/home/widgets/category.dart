@@ -9,10 +9,10 @@ Widget iconCategory() {
         Column(
           children: [
             CircleAvatar(
-              radius: 32,
+              radius: 26,
               backgroundColor: Colors.black,
               child: CircleAvatar(
-                radius: 30,
+                radius: 25,
                 backgroundColor: Colors.transparent,
                 child: Image.asset(
                   'assets/icon/1.png',
@@ -21,15 +21,15 @@ Widget iconCategory() {
                 ),
               ),
             ),
-            const Text('categories'),
+            // const Text('categories'),
           ],
         ),
         const SizedBox(width: 5),
         CircleAvatar(
-          radius: 32,
+          radius: 26,
           backgroundColor: Colors.black,
           child: CircleAvatar(
-            radius: 30,
+            radius: 25,
             backgroundColor: Colors.transparent,
             child: Image.asset(
               'assets/icon/2.png',
@@ -40,10 +40,10 @@ Widget iconCategory() {
         ),
         const SizedBox(width: 5),
         CircleAvatar(
-          radius: 32,
+          radius: 26,
           backgroundColor: Colors.black,
           child: CircleAvatar(
-            radius: 30,
+            radius: 25,
             backgroundColor: Colors.transparent,
             child: Image.asset(
               'assets/icon/3.png',
@@ -54,10 +54,10 @@ Widget iconCategory() {
         ),
         const SizedBox(width: 5),
         CircleAvatar(
-          radius: 32,
+          radius: 26,
           backgroundColor: Colors.black,
           child: CircleAvatar(
-            radius: 30,
+            radius: 25,
             backgroundColor: Colors.transparent,
             child: Image.asset(
               'assets/icon/3.png',
@@ -69,10 +69,10 @@ Widget iconCategory() {
         const SizedBox(width: 5),
         const SizedBox(width: 5),
         CircleAvatar(
-          radius: 32,
+          radius: 26,
           backgroundColor: Colors.black,
           child: CircleAvatar(
-            radius: 30,
+            radius: 25,
             backgroundColor: Colors.transparent,
             child: Image.asset(
               'assets/icon/2.png',
@@ -83,10 +83,10 @@ Widget iconCategory() {
         ),
         const SizedBox(width: 5),
         CircleAvatar(
-          radius: 32,
+          radius: 26,
           backgroundColor: Colors.black,
           child: CircleAvatar(
-            radius: 30,
+            radius: 25,
             backgroundColor: Colors.transparent,
             child: Image.asset(
               'assets/icon/3.png',
@@ -97,10 +97,10 @@ Widget iconCategory() {
         ),
         const SizedBox(width: 5),
         CircleAvatar(
-          radius: 32,
+          radius: 26,
           backgroundColor: Colors.black,
           child: CircleAvatar(
-            radius: 30,
+            radius: 25,
             backgroundColor: Colors.transparent,
             child: Image.asset(
               'assets/icon/3.png',
