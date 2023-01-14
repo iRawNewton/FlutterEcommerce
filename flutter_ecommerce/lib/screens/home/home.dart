@@ -43,7 +43,136 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(height: 30),
               // caraousel
               carouselImages(),
-              // something
+              const SizedBox(height: 30),
+              // featured book section
+              Column(
+                children: [
+                  const Text('Featured Books Section'),
+                  const SizedBox(height: 20),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 209, 228, 230),
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 40, vertical: 15),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            Column(
+                              children: [
+                                CircleAvatar(
+                                  radius: 30,
+                                  child: Image.asset(
+                                    'assets/icon/2.png',
+                                    height: 300,
+                                    width: 300,
+                                  ),
+                                ),
+                                const SizedBox(height: 10),
+                                const Text(
+                                  'data',
+                                  style: TextStyle(color: Colors.indigo),
+                                ),
+                              ],
+                            ),
+                            const Spacer(),
+                            Column(
+                              children: [
+                                CircleAvatar(
+                                  radius: 30,
+                                  child: Image.asset(
+                                    'assets/icon/2.png',
+                                    height: 300,
+                                    width: 300,
+                                  ),
+                                ),
+                                const SizedBox(height: 10),
+                                const Text(
+                                  'data',
+                                  style: TextStyle(color: Colors.indigo),
+                                ),
+                              ],
+                            ),
+                            const Spacer(),
+                            Column(
+                              children: [
+                                CircleAvatar(
+                                  radius: 30,
+                                  child: Image.asset(
+                                    'assets/icon/2.png',
+                                    height: 300,
+                                    width: 300,
+                                  ),
+                                ),
+                                const SizedBox(height: 10),
+                                const Text(
+                                  'data',
+                                  style: TextStyle(color: Colors.indigo),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 40),
+                        Row(
+                          children: [
+                            Column(
+                              children: [
+                                CircleAvatar(
+                                  radius: 30,
+                                  child: Image.asset(
+                                    'assets/icon/2.png',
+                                    height: 300,
+                                    width: 300,
+                                  ),
+                                ),
+                                const SizedBox(height: 10),
+                                const Text(
+                                  'data',
+                                  style: TextStyle(color: Colors.indigo),
+                                ),
+                              ],
+                            ),
+                            const Spacer(),
+                            Column(
+                              children: [
+                                CircleAvatar(
+                                  radius: 30,
+                                  child: Image.asset(
+                                    'assets/icon/2.png',
+                                    height: 300,
+                                    width: 300,
+                                  ),
+                                ),
+                                const SizedBox(height: 10),
+                                const Text('data'),
+                              ],
+                            ),
+                            const Spacer(),
+                            Column(
+                              children: [
+                                CircleAvatar(
+                                  radius: 30,
+                                  child: Image.asset(
+                                    'assets/icon/2.png',
+                                    height: 300,
+                                    width: 300,
+                                  ),
+                                ),
+                                const SizedBox(height: 10),
+                                const Text('data'),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  )
+                ],
+              ),
+              const SizedBox(height: 100),
             ],
           ),
         ),
