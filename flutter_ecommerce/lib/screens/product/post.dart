@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:login/services/models/model_post.dart';
-import 'package:login/services/remote/remote_post.dart';
+import '../../services/models/model_post.dart';
+import '../../services/remote/remote_post.dart';
 
 class MyPost extends StatefulWidget {
   const MyPost({super.key});

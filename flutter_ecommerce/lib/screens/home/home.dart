@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:login/screens/home/widgets/category.dart';
 
 import 'widgets/carousel.dart';
+import 'widgets/category.dart';
 import 'widgets/search.dart';
 
 class HomePage extends StatefulWidget {

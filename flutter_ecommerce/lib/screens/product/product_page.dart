@@ -1,8 +1,7 @@
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:login/screens/product/widgets/description.dart';
 
 import 'widgets/book_title.dart';
+import 'widgets/description.dart';
 import 'widgets/images_gallery.dart';
 import 'widgets/price_container.dart';
 
