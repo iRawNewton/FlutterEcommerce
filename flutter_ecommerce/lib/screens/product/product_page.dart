@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'widgets/book_title.dart';
+import 'widgets/buy_cart_button.dart';
 import 'widgets/description.dart';
 import 'widgets/images_gallery.dart';
 import 'widgets/price_container.dart';
@@ -31,13 +32,17 @@ class _MyProductState extends State<MyProduct> {
                 const SizedBox(height: 10),
                 // title
                 bookTitle(),
-                const SizedBox(height: 5),
+                const SizedBox(height: 10),
                 // price
                 priceTag(),
-                const SizedBox(height: 5),
+                const SizedBox(height: 10),
                 // description
-
                 description(context, desc),
+                const SizedBox(height: 10),
+                // buy now or add to cart
+                buttonBuyCart(context),
+                const SizedBox(height: 10),
+                // buy now or add to cart
               ],
             ),
           ),
